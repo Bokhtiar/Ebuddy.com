@@ -1,0 +1,193 @@
+#data-table{
+    display: block;
+    overflow-x: auto;
+    overflow-y: scroll;
+    white-space: nowrap;
+    margin: 10px;
+    max-width: 1050px;
+    max-height: 450px;
+}
+.t-header, .t-body {
+    border:solid 1px #CCCCCC;
+    border-collapse:collapse;
+    // padding: 5px;
+    text-align: center;
+    color: #7E7E7E;
+    font-size: 11px;
+}
+.vertical-text{
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+}
+.bg-gray{
+    background-color: #E7E6E6;
+}
+.bg-dark-yellow{
+    background-color: #FFC000;
+}
+
+.total-satisfied{
+    color: #3D5A29;
+    background-color: #E7E6E6;
+}
+.total-helped{
+    color: #806102;
+    background-color: #E7E6E6;
+}
+.total-unsatisfied{
+    color: #FF0000;
+    background-color: #E7E6E6;
+}
+.total-not-reviewed{
+    color: #0071C0;
+    background-color: #E7E6E6;
+}
+
+.percent-satisfied{
+    // background-color:#A8D18E;
+    font-weight: 400;
+}
+.percent-helped{
+    background-color:#FFF;
+    font-weight: 400;
+}
+.percent-unsatisfied{
+    background-color:#FFF;
+    font-weight: 400;
+}
+.percent-not-reviewed{
+    background-color:#FFF;
+    font-weight: 400;
+}
+.task-summary-report{
+    .single-satisfied{
+        background-color:#0AAF50;
+        color: #fff !important;
+    }
+    .single-helped{
+        background-color: #FEFF00;
+        color: #3D3E03 !important;
+    }
+    .single-unsatisfied{
+        background-color:#FF0000;
+        color: #FFFFFF !important;
+    }
+    .single-not-reviewed{
+        background-color:#fff;
+        color: #68A4D6 !important;
+    }
+}
+
+.h-percent-satisfied {
+    background-color:#A8D18E;
+    color: #000;
+}
+
+.h-percent-helped {
+    background: #FEFF00;
+    color: #000000;
+}
+
+.h-percent-unsatisfied {
+    background: #F8CAAD;
+    color: #000000
+}
+
+.h-percent-notreviewed {
+    background: #BDD8EE;
+    color: #000000, 
+}
+
+.s-head {
+    background: #E7E6E6;
+    color: #375623
+}
+
+.h-head {
+    background: #E7E6E6;
+    color: #806100
+}
+
+.u-head {
+    background: #E7E6E6;
+    color: #FB2120
+}
+
+.n-head {
+    background: #E7E6E6;
+    color: #0070C0
+}
+
+.percent-satisfied {
+    color: #7D906F
+}
+
+.percent-helped {
+    color: #A58F53
+}
+
+.percent-unsatisfied {
+    color: #FF2929
+}
+
+.percent-notreviewed {
+    color: #FF2929
+}
+
+.b-total-Satisfied {
+    background: #DCEBF7;
+    color: #000000
+}
+
+.b-total-Helped {
+    background: #DCEBF7;
+    color: #000000
+}
+
+.b-total-Unsatisfied {
+    background: #DCEBF7;
+    color: #000000
+}
+
+.b-total-Not-Reviewed {
+    background: #DCEBF7;
+    color: #000000
+}
+
+.issue-color-blocker{
+    background: #F1C40F;
+    color: #FFFFFF !important;
+}
+
+.issue-color-critical{
+    background: #ED7D32;
+    color: #FFFFFF !important;
+}
+
+.issue-color-major{
+    background: #0284E6;
+    color: #FFFFFF !important;
+}
+
+.issue-color-minor{
+    background: #9DC3E6;
+    color: #FFFFFF !important;
+}
+
+.status-color-closed{
+    background: #4ebe76;
+    color: #FFFFFF !important;
+}
+
+.status-color-wip{
+    background: #f29e3b;
+    color: #FFFFFF !important;
+}
+
+.status-color-open{
+    background: #f85a5b;
+    color: #FFFFFF !important;
+}

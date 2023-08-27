@@ -1,0 +1,21 @@
+.box {
+    float: left;
+    height: 18px;
+    width: 18px;
+    margin: 0 0.5rem;
+    clear: both;
+  }
+  .low {
+    background-color: #F2452F;
+    border: 1px solid #F2452F;
+  }
+  
+  .high {
+    background-color: #00b894;
+    border: 1px solid #00b894;
+  }
+  
+  .medium {
+    background-color: #F78C2C;
+    border: 1px solid #F78C2C;
+  }

@@ -1,0 +1,16 @@
+.task__div__left {
+    width: 75%;
+}
+
+/* .task__div__left__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.task__div__right {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -1,0 +1,116 @@
+.notification-items {
+    .notification-item {
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+.employ-project-modal {
+    .employ-project-item {
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .not-data-text {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hide-task-details {
+        display: none;
+    }
+
+    .activity-icon {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+}
+
+
+.file-upload-content {
+    
+    .file-upload-wrapper {
+        position: relative;
+        width: 100%;
+        height: 42px;
+        border: 1px solid #D9D9D9;
+        border-radius: 5px;
+        margin: 5px 0px;
+    }
+
+    .attacment-filename {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+    }
+    
+    .file-upload-wrapper:after {
+        content: attr(data-text);
+        font-size: 18px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
+        padding: 10px 15px;
+        display: block;
+        width: calc(100% - 40px);
+        pointer-events: none;
+        z-index: 20;
+        height: 40px;
+        line-height: 40px;
+        color: rgb(195, 195, 195);
+        border-radius: 5px 10px 10px 5px;
+        font-weight: 300;
+    }
+    
+    .file-upload-wrapper:before {
+        content: "Browse";
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        display: inline-block;
+        height: 40px;
+        background: #e6e6e6;
+        color: rgb(128, 128, 128);
+        font-weight: 200;
+        z-index: 25;
+        font-size: 11px;
+        line-height: 40px;
+        padding: 0 15px;
+        pointer-events: none;
+        border-radius: 0 5px 5px 0;
+    }
+    
+    .file-upload-wrapper input {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        cursor: pointer;
+        width: 100%;
+    }
+}
+
+.notice-count {
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+

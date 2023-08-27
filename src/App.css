@@ -1,0 +1,1022 @@
+@import "~antd/dist/antd.css";
+*{
+  font-family: 'Inter', sans-serif;
+}
+a {
+  /* transition: all ease-in-out 0.5s; */
+}
+
+:root {
+  font-size: 16px;
+  --base-text-color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.space {
+  padding: 5px 0px 5px 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.P-BG {
+  background-color: #00000009;
+  border-radius: 3px;
+}
+
+.P-HOVER:hover {
+  background-color: #00000009;
+  cursor: pointer;
+}
+
+.ADDNEW {
+  /* padding : 6%; */
+  padding: 0 0 1rem 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.ADDNEW button {
+  border: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all ease-in-out 0.2s;
+}
+
+.ADDNEW button:active {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.LINK {
+  text-decoration: none;
+  text-decoration-color: none;
+  cursor: pointer;
+}
+
+.FIX_cbs_addnew_transports:hover {
+  background-color: #cbe1ef;
+}
+
+.FIX_cbs_addnew_transports {
+  padding: 2%;
+  border-radius: 5px;
+  line-height: 160%;
+  cursor: pointer;
+}
+
+.FIX_drawer-item {
+  padding: 1rem;
+  margin: 3px 0 3px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+
+.FIX_drawer-item:hover {
+  background-color: #efefef;
+}
+
+.FIX_btn_filter {
+  border-color: #1890ff;
+  color: #1890ff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.force_link {
+  color: #333 !important;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #333;
+  user-select: none;
+  cursor: pointer;
+}
+
+.flex_r {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex_c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_c_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.i_flex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-row-gap: 0.8rem;
+}
+
+.FIX_space {
+  padding: 0.5rem;
+}
+
+.FIX_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.FIX_pagination {
+  -webkit-box-shadow: 2px -9px 25px -12px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 2px -9px 25px -12px rgba(0, 0, 0, 0.28);
+  box-shadow: 2px -9px 25px -12px rgba(0, 0, 0, 0.28);
+  background-color: white;
+  width: 100%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+.FIX_pagination button {
+  border-color: #1890ff;
+  color: #1890ff;
+  font-size: 13px;
+  margin-right: 0.5rem;
+}
+
+.FIX_pagination button:focus {
+  background-color: #1890ff;
+  color: white;
+}
+
+.pagination {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.pad {
+  padding: 1rem;
+}
+
+.half-pad {
+  padding: 0.5rem;
+}
+
+.semi-pad {
+  padding: 0.7rem 1rem 0.7rem 1rem;
+}
+
+.vertical-pad {
+  padding: 1rem 0;
+}
+
+.side-pad {
+  padding: 0 1rem 0 1rem;
+}
+
+.side-pad-wide {
+  padding: 0 2rem 0 2rem;
+}
+
+.mini-pad {
+  padding: 0.3rem 0 0.3rem 0;
+}
+
+.br-pad {
+  padding: 1rem 0 1rem 0;
+}
+
+.width-300 {
+  width: 350px;
+}
+
+.width-600 {
+  width: 100%;
+  min-width: 600px;
+  position: absolute;
+}
+
+.width-1500 {
+  width: 100%;
+  min-width: 1500px;
+  position: absolute;
+}
+
+.width-1200 {
+  width: 100%;
+  min-width: 1200px;
+  position: absolute;
+}
+
+.width-1000 {
+  width: 100%;
+  min-width: 900px;
+  position: absolute;
+}
+
+.width-auto {
+  width: 100%;
+}
+
+.ant-divider {
+  margin: 0;
+}
+
+.left-text {
+  text-align: left;
+}
+.right-text {
+  text-align: right;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.side-accordion-btn {
+  background-color: red;
+}
+
+.sub-active {
+  font-weight: 700;
+  color: #0084e6 !important;
+  /* transition : all ease-in-out 1s; */
+}
+
+.grid-8 {
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.left-pad {
+  padding-left: 1rem;
+}
+.left-pad-2 {
+  padding-left: 1.5rem;
+}
+.right-pad {
+  padding-right: 1rem;
+}
+.ant-select {
+  width: 100%;
+}
+.ant-calendar-picker {
+  width: 100%;
+}
+
+.blue-bg {
+  background-color: #e2f2ff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.a_link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.a_link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blue-text {
+  color: #3280cd !important;
+}
+
+.big-space {
+  padding: 35px 0 35px 0;
+}
+
+.dark-bg {
+  background-color: lightgray;
+}
+
+.filter-btn {
+  display: inline-block;
+  padding-right: 1%;
+  margin-bottom: 0.5rem;
+}
+.dot-button {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  border-radius: 2px;
+  padding: 0.2rem;
+  cursor: pointer;
+  user-select: none;
+  outline: 0;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.dot-button-focus {
+  border: 2px solid #3280cd;
+  color: #3280cd;
+}
+
+.pop-card {
+  position: absolute;
+  width: 350px !important;
+  left: 2rem;
+  bottom: -2rem;
+  background-color: white;
+  z-index: 11;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: 0;
+}
+
+.half-image {
+  width: 8rem;
+}
+
+.block {
+  display: block;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.none {
+  display: none;
+}
+.meal-btn {
+  min-width: 150px;
+}
+
+.icon-container {
+  /* padding : 1rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.meeting-icon-container {
+  /* padding : 1rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.meeting-details-container {
+  min-height: 280px;
+}
+
+.ant-form-item label {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+}
+.ant-radio {
+  font-size: 14px;
+}
+.ant-modal-title {
+  font-weight: bold;
+}
+
+.landing-card {
+  width: 100%;
+  border: 0;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meeting-complete-container {
+  padding: 1rem 2rem 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meal-book-container {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #00000020;
+}
+.select-bg {
+  background-color: #e2f2ff;
+}
+
+.table-data {
+  min-width: 1000px;
+}
+
+.attendee-grid {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.attendee-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.fixed-bottom {
+  position: fixed;
+}
+
+.user-list {
+  height: 320px;
+  overflow: auto;
+}
+
+.table-popover {
+  width: 30rem;
+}
+
+.logo {
+  width: 100%;
+  max-width: 9rem;
+}
+
+.nav-container-logo {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container-start {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-container-end {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.centered {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.back-btn-link {
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+}
+
+.back-btn-link:hover {
+  color: #0084e6;
+}
+
+.hover-select:hover {
+  background-color: #00000009;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.hover-select:hover::after {
+  content: "Add";
+  font-weight: bold;
+  color: #0484e7;
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+}
+
+.employee-select {
+  /* position: relative; */
+  background-color: #f4f7fc;
+  border-right: 5px solid #0484e7;
+  border-radius: 3px;
+}
+
+/* .employee-select::after {
+  content: "✓";
+  color: #0484e7;
+  position: absolute;
+  font-size: 1rem;
+  right: 10%;
+  bottom: 30%;
+} */
+
+.bottom-margin {
+  margin-bottom: 3.3rem;
+}
+
+.no-border {
+  border: 0;
+}
+
+.fixed-approve-decline {
+  position: sticky;
+  background-color: white;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.fixed-start-cancel {
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.profile-pop {
+  width: 25rem;
+}
+
+.sample-desk-img {
+  height: 20rem;
+  width: 20rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.time-history-list {
+  height: 20rem;
+  overflow: auto;
+}
+
+.g-label {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+  margin: 0;
+}
+
+.b-title {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+}
+
+/* .ant-typography strong{
+  font-size: 16px;
+  font-weight: 700;
+  color : #333;
+}
+
+.ant-typography {
+  font-size: 12px;
+  color : #666;
+
+  font-weight: 400;
+}
+
+.ant-typography code strong{
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.ant-typography code{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.th strong{
+  font-size: 12px;
+  color : gray;
+} */
+/* .ant-input {
+  width : 100%;
+} */
+
+/* .ant-modal-body{
+  height : 450px;
+  overflow: auto;
+} */
+
+/* .ant-upload {
+  height : 20rem !important;
+  width : 20rem !important;
+} */
+
+.ant-input[disabled] {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.ant-form-item-label > label {
+  font-size: 0.7rem;
+}
+
+.ant-popover-inner-content {
+  max-width: 100% !important;
+  /* min-width: 20rem !important; */
+}
+
+.ant-pagination-item {
+  margin: 0;
+  border-radius: 0;
+}
+
+.ant-pagination-item-active {
+  background: #0084e6;
+  border: 0;
+}
+
+.ant-pagination-item-active a {
+  color: white;
+}
+
+.ant-pagination-item-active a:active {
+  color: white;
+}
+
+.ant-pagination-item-active a:hover {
+  color: white;
+}
+
+.ant-timeline {
+  margin: 0;
+}
+
+.ant-timeline-item {
+  padding: 0;
+}
+
+.ant-timeline-item-last {
+  min-width: 0;
+  padding: 0;
+}
+
+.ant-timeline-item-last > .ant-timeline-item-content {
+  min-height: 0;
+}
+
+.approve-decline-btn {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  /* text-align: start; */
+}
+
+.left-pad-2 {
+  padding: 0 0 0 2rem;
+}
+
+.scroll {
+  overflow-y: auto;
+  /* height : 75vh; */
+}
+
+.profile-details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1rem;
+}
+
+.side-bod {
+  border-right: 0.8px solid lightgray;
+}
+.bottom-bod {
+  border-bottom: 0.8px solid lightgray;
+}
+.top-bod {
+  border-top: 0.8px solid lightgray;
+}
+
+.side-bod-left {
+  border-left: 0.8px solid lightgray;
+}
+
+.sub-title {
+  font-size: 12px !important;
+  font-weight: 400;
+  color: #333;
+}
+
+.table-fix {
+  min-width: 1000px !important;
+  overflow: auto;
+}
+
+.max-height-500 {
+  max-height: 600px;
+  width: 800px !important;
+  overflow: hidden;
+}
+
+.subordinates-container {
+  height: 300px;
+  overflow: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.modal-no-pad .ant-modal-body {
+  padding: 0 !important;
+}
+
+.punch-in-out {
+  max-width: 15rem;
+  overflow: hidden;
+  width: 100%;
+  text-align: right !important;
+  background-color: #059686;
+}
+
+/* /////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////// */
+/* .ant-typography strong{
+  font-size: 14px;
+  font-weight: 600;
+  color : #333;
+}
+
+.ant-typography {
+  font-size: 14px !important;
+  font-weight: 400;
+  color : #333;
+}
+
+.blue-text strong{
+  color : #3280cd !important;
+}
+
+
+.sub-title {
+  font-size: 12px !important;
+  font-weight: 400;
+  color : #333;
+}
+
+.sub-title strong{
+  font-size: 12px;
+  font-weight: 400;
+  color : #333;
+}
+
+
+.FIX_th strong{
+    color : gray;
+    font-size : 11px;
+    text-transform: uppercase;
+}
+
+.FIX_th {
+  color : gray;
+  font-size : 11px !important;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 20px !important;
+  font-weight: 700;
+  color : #0084e6 !important;
+}
+
+.title-b {
+  font-size: 20px !important;
+  font-weight: 700;
+  color : #333;
+} */
+
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
+
+.ant-popover-inner-content {
+  max-width: 20rem;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.ant-btn-primary {
+  background-color: #0084e6;
+  border-color: #0084e6;
+}
+
+.ant-btn-primary-green {
+  background-color: #059686;
+  border-color: #059686;
+  color: white;
+  /* outline : 1px solid #059686; */
+}
+
+.ant-btn-primary-green:hover {
+  background-color: #06a391;
+  border-color: #06a391;
+  color: white;
+}
+
+.ant-btn-primary-green:focus {
+  background-color: #06a391;
+  border-color: #06a391;
+  color: white;
+}
+/*  */
+/* 27.2.22 CSS updated by Saikat */
+/*  */
+
+.ant-table table span.ant-table-column-title {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2b2b2b;
+}
+.ant-col-12 {
+  display: inline-table !important;
+}
+.ant-table table td,
+.ant-table table span {
+  font-size: 13px;
+  color: var(--base-text-color);
+}
+.ant-table-thead > tr > th {
+  line-height: 14px;
+}
+/* .cltDot {
+  padding-top: 1rem!important;
+} */
+.base_font_size {
+  font-size: 13px;
+  color: var(--base-text-color);
+  font-weight: 500;
+}
+.pad .ant-collapse-item button.active {
+  color: #fff!important;
+  font-weight: 500;
+}
+.ant-collapse-header .button {
+  color: var(--base-text-color)!important;
+}
+.ant-collapse-header .button.active {
+  color:#fff!important;
+  font-weight: 500;
+}
+.pad .ant-collapse-item button {
+  color: var(--base-text-color);
+}
+.ant-btn-link {
+  padding: 0;
+}
+.ant-btn-link span {
+  color: #1890ff!important;
+  text-decoration: underline;
+}
+.ant-table-tbody p {
+  margin-bottom: 0;
+}
+.ant-table-tbody p:last-child {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+/*.ant-select-selection {*/
+/*  border: 1px solid #757575;*/
+/*}*/
+.legend_style p {
+  color: var(--base-text-color);
+}
+.legend_style p,
+.legend_style span {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.ant-input {
+  color: rgba(0, 0, 0, 0.85);
+}
+.ant-select .anticon,
+.ant-calendar-picker .anticon {
+  color: rgba(0, 0, 0, 0.85);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  font-weight: 500;
+}
+.ant-select-selection__placeholder {
+  color: #8f8f8f;
+}
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+  overflow-wrap: normal;
+}
+/* .ant-table-tbody .ant-btn-link span, */
+.ant-table-tbody a u {
+  font-weight: 500;
+}
+.legend_style .each_legend p{
+  line-height: 19px;
+  color: #838383;
+}
+table .t-header, 
+table .t-body {
+  color: var(--base-text-color)!important;
+  font-size: 13px;
+}
+.pa-employee-table .employee-month,
+.pa-employee-table .employee-name {
+  font-size: 12px;
+}
+.notification{
+  padding: 0.5rem;
+}
+.notification:hover{
+  cursor: pointer;
+  background-color: #F1F1F1;
+}
+
+
+/* calender custome css */
+.dx-scheduler-timeline.dx-scheduler-work-space-both-scrollbar
+  .dx-scheduler-date-table
+  .dx-scheduler-date-table-row:first-child
+  .dx-scheduler-date-table-cell {
+  width: 25px;
+}
+
+.dx-scheduler-header-panel-container {
+  background-color: fff;
+  color: black;
+}
+.dx-scheduler-timeline-day
+  .dx-scheduler-header-row
+  .dx-scheduler-header-panel-cell {
+  color: black;
+}
+
+.dx-buttongroup-wrapper {
+  background-color: blue;
+  border-radius: 25%;
+}
+.dx-buttongroup-item.dx-button.dx-button-mode-contained.dx-button-normal.dx-item-selected {
+  background-color: blue;
+  color: white;
+}
+
+
+.dx-scheduler-header {
+    height: 0px;
+    background-color: #f5f5f5;
+}
+
+.dx-scheduler-header .dx-toolbar .dx-toolbar-items-container{
+  display: none;
+}
+
+.dx-scheduler-all-day-appointment, .dx-scheduler-timeline .dx-scheduler-appointment, .dx-scheduler-work-space-month .dx-scheduler-appointment{
+  border-radius: 5%;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: white;
+}
+.employee-bg{
+  background-color: white;
+  padding: 0px;
+}

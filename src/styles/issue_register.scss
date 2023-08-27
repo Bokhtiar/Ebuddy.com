@@ -1,0 +1,22 @@
+#issue-table{
+    display: block;
+    overflow-x: auto;
+    overflow-y: scroll;
+    white-space: nowrap;
+    margin: 10px;
+    // max-width: 1050px;
+    // max-height: 450px;
+}
+.issue-t-header, .issue-t-body {
+    border:solid 1px #CCCCCC;
+    border-collapse:collapse;
+    padding: 5px;
+    text-align: center;
+    color: #7E7E7E;
+    font-size: 11px;
+}
+.bg-gray{
+    background-color: #E7E6E6;
+}
+
+

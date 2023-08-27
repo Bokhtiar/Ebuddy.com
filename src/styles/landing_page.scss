@@ -1,0 +1,16 @@
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-card {
+    margin-bottom : 1rem !important;
+}
+
+.calender {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    padding : 0.5rem 1rem;
+}

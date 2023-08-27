@@ -1,0 +1,36 @@
+#target-table{
+    display: block;
+    overflow-x: auto;
+    overflow-y: scroll;
+    white-space: nowrap;
+    font-weight: 700;
+    margin: 10px;
+    width: 95%;
+    font-size: 11px;
+}
+.t-header, .t-body {
+    border:solid 1px #CCCCCC;
+    border-collapse:collapse;
+    padding: 10px;
+    text-align: left;
+    color: #898787;
+}
+.bg-gray{
+    background-color: #FAFAFA;
+}
+.bg-gray-mrc{
+    background-color: #ECECEC;
+}
+.achievement{
+    color: #A60AE7;
+}
+.percentage{
+    color: #399FEC ;
+}
+.grand-total{
+    color: #0E8AE7 ;
+}
+.progress{
+    color: #55C383 ;
+}
+

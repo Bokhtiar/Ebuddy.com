@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+ 	# -- Redirection to https (optional):
+	# Please notice: You have to set your base-href attribute correctly:
+	# a) If your app is on the root of the domain, you can just use "/"
+	# b) If not, you need to set "https://" instead of "http://" in your base-href attribute
+	# If you need this, uncomment the next two commands
+
+	# RewriteCond %{HTTPS} !on
+  	# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+##    RewriteRule ^(blapp|blweb|blroaming|blbulk|ttRechargeTest|ttapp|blbot) app.php [L,QSA]
+	RewriteRule ^(blapp|blweb|blroaming|blbulk|ttRechargeTest|ttapp|blbot|ttapp/test|blweb/test|widget_library|widget|tdp) app.php [L,QSA]
+	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+
+	RewriteRule ^.*$ - [NC,L]
+	RewriteRule ^(.*) index.html [NC,L]
+
+    </IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php71” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

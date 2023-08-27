@@ -1,0 +1,92 @@
+@import "file_upload.scss";
+@import "typography.scss";
+@import "landing_page.scss";
+@import "./assignee.scss";
+@import "./antd_overwrite.scss";
+@import "./project.scss";
+@import "./activity.scss";
+@import "./calendar.scss";
+@import "./notifications.scss";
+@import "./supervisor_dashboard.scss";
+@import "./report.scss";
+@import "./target_vs_achievement.scss";
+@import "./pa-chart";
+@import "./dashboard";
+@import "./management_dashboard";
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-start {
+  justify-content: flex-start;
+}
+
+.flex-centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.gray-bg {
+  background-color: #6c6c6c;
+}
+
+.p-bg {
+  background-color: #00000009;
+}
+
+.p-bg-blue {
+  background-color: #8abad325;
+  border-radius: 5px;
+}
+
+.p-bg-light {
+  background-color: #ffffff;
+}
+
+.fill-height {
+  height: calc(100vh - 4rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.icon-container-round {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #8abad325;
+  img {
+    width: 1rem;
+  }
+}
+
+.gray-text {
+  color: gray !important;
+}
+
+.sticky-at-bottom {
+  position: sticky;
+  bottom : 0;
+}

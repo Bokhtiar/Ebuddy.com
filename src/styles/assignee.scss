@@ -1,0 +1,23 @@
+.assignee-container {
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+
+  .add-new {
+    height: 100%;
+    width: 100%;
+    padding-top : 1rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 8%;
+    }
+  }
+
+  .head {
+    width: 2.7rem;
+  }
+}

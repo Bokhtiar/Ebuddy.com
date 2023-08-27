@@ -1,0 +1,35 @@
+.nav-wrapper {
+  height: 4rem;
+  width: 100%;
+
+  .punch-time-wrapper {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    .punch-time-group {
+      width: 100%;
+      min-width: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media (max-width: 400px) {
+        min-width: 50px;
+        transform: scale(0.88);
+      }
+      @media (max-width: 281px) {
+        display: none;
+      }
+      .in-time {
+        font-weight: bold;
+        color: #108ee9;
+        margin: 0;
+      }
+      .out-time {
+        color: #ff9800;
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+  }
+}

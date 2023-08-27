@@ -1,0 +1,175 @@
+.activity__section {
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 3px;
+    max-height: calc(100vh - 14.2rem);
+    overflow-y: scroll;
+}
+
+.activity__section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.activity__section__header__left h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.activity__section__header__right {
+    width: 100%;
+    max-width: 75px;
+    background: #3498db;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.activity__section__header__right a {
+    color: white;
+    font-size: 12px;
+}
+
+.activity-list {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.activity-list__item {
+    position: relative;
+}
+
+.activity-list__item p {
+    margin: 2px;
+}
+
+.bot-code {
+    color: #0084E6;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.bot-title {
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 12px;
+    position: relative;
+}
+
+/* Add dot before .bot-title */
+.bot-title:before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 5px;
+    bottom: 0;
+    width: 4px;
+    background: darkgray;
+    z-index: 1;
+    height: 4px;
+    border-radius: 29px;
+}
+
+.activity-list__item__user {
+    display: flex;
+    align-items: center;
+}
+
+.activity-list__item__user__avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.activity-list__item__user__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-list__item__user__name p {
+    margin: 0px 0px 0px 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.activity-list__item__badge {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.badge-primary {
+    background: #DDFFEB;
+    color: #28AD61;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.badge-secondary {
+    background: #FFAC27;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.badge-warning {
+    /* background: #cfffd3; */
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #3498db;
+}
+
+.badge-warning svg {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    fill: #3498db;
+}
+
+.activity__spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.not__found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+/* Infinity scroll */
+/* .demo-infinite-container {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    overflow: auto;
+    padding: 8px 24px;
+    height: 300px;
+}
+
+.demo-loading-container {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+} */

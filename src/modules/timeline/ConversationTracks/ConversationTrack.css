@@ -1,0 +1,66 @@
+.meeting__conversation_tracks {
+    margin-top: 20px;
+}
+
+.meeting__conversation_tracks,
+.meeting__conversation_tracks_header {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2B2B2B;
+
+}
+
+.meeting__conversation_tracks thead th {
+    background-color: #0084E6 !important;
+    border: none !important;
+
+}
+
+.meeting__conversation_tracks thead th span {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400 !important;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF !important;
+}
+
+.conversation_progress_p {
+    color: #777777 !important;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.linked_meeting__cell .delegated__cell {
+    text-align: center !important;
+}
+
+.linked_meeting__cell span {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6957DE !important;
+
+}
+
+.delegated__cell span {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #B820FF !important;
+}

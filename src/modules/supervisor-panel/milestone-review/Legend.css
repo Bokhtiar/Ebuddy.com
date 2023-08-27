@@ -1,0 +1,96 @@
+/* square solid legend */
+/* basic positioning */
+.legendSquared { 
+    list-style: none; 
+    padding: 0px !important;
+}
+.legendSquared p{
+    float: left; 
+    margin-right: 10px;
+    margin-bottom: 0px !important; 
+}
+.legendSquared span { 
+    float: left; 
+    width: 15px; 
+    height: 15px;
+    margin:2px;
+    border-radius:2px;
+}
+/* your colors */
+.legendSquared .done { 
+    background-color: #a0d914; 
+}
+.legendSquared .wip { 
+    background-color: #fadb11; 
+}
+.legendSquared .hold { 
+    background-color: #f98b14; 
+}
+.legendSquared .cancelled { 
+    background-color: #f5202e; 
+}
+
+
+
+/* circle solid legend */
+/* basic positioning */
+.legendCircle { 
+    list-style: none; 
+    padding: 0px !important;
+}
+.legendCircle p{ 
+    float: left;
+    margin-right: 10px; 
+    margin-bottom: 0px !important; 
+}
+.legendCircle span { 
+    float: left; 
+    width: 14px; 
+    height: 14px; 
+    margin: 2px 4px 0 0px;
+    border-radius: 50%;
+}
+/* your colors */
+.legendCircle .next10 { 
+    background-color: #54a0ff; 
+    color:#54a0ff;
+}
+.legendCircle .next5 { 
+    background-color: #5f27cd; 
+    color:#5f27cd;
+}
+.legendCircle .over { 
+    background-color: #ee5253; 
+    color:#ee5253;
+}
+
+
+
+/* square bordered legend */
+/* basic positioning */
+.legendBordered { 
+    list-style: none; 
+    padding: 0px !important;
+}
+.legendBordered p{ 
+    float: left; 
+    margin-right: 10px;
+    margin-bottom: 0px !important;  
+}
+.legendBordered span { 
+    float: left; 
+    width: 14px; 
+    height: 14px; 
+    margin: 5px; 
+    border-radius:3px;
+}
+/* your colors */
+.legendBordered .satisfied { 
+    border: 2px solid #a0d914;
+}
+.legendBordered .helped { 
+    border: 2px solid #f98b14;
+}
+.legendBordered .unsatisfied { 
+    border: 2px solid #f5202e; 
+}

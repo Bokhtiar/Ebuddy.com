@@ -1,0 +1,46 @@
+.locator-wrapper {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  .map-marker-wrapper {
+    position: relative;
+    .map-marker {
+      text-align: left;
+      position: absolute;
+      bottom: 0;
+      transform-origin: bottom left;
+      transform: scale(2.5);
+      color: var(--primary);
+      z-index: -2;
+      overflow: hidden;
+    }
+    .marker-content {
+      padding: 0.5rem 1rem 1rem 4.5rem;
+      display: none;
+      z-index: -1;
+      left: -1rem;
+      top: -1.5rem;
+      position: absolute;
+      min-height: 7rem;
+      height: auto;
+      width: auto;
+      color: var(--lightBg);
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .marker-content-show {
+      display: block;
+    }
+  }
+
+  .members-wrapper {
+    height: calc(100vh - 15rem);
+    width: 100%;
+    overflow: auto;
+  }
+
+  .selected-member {
+    background-color: #eaeaea;
+  }
+}

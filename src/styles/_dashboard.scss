@@ -1,0 +1,121 @@
+.week-task {
+    .gutter-row {
+        text-align: center;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 50%; /* the magic */
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0 auto 5px;
+        background-color: #ccc;
+    }
+
+    .blue {
+        background-color: #3498db;  
+    }
+
+    .gray {
+        background-color: #dfe6e9;  
+        color: #747d8c;
+    }
+
+    .arrow-handeler {
+        padding-top: 2.5rem;
+    }
+
+    .icon-active {
+        color: #3498db;
+    }
+
+    
+
+    .week-task-status-content {
+        text-align: center;
+
+        .task-code-content {
+            background: rgb(196, 196, 196);
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}
+
+.current-week {
+    .gutter-row {
+        text-align: center;
+    }
+    .circle {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 50%; /* the magic */
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        text-align: center;
+        color: #747d8c;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0 auto;
+        background-color: #ccc;
+    }
+    .gray {
+        background-color: #dfe6e9;  
+    }
+    .bold{
+        font-weight: 700;
+    }
+    .half-day{
+        background: linear-gradient(to right, #ff9f43 50%, #dfe6e9 50%);
+    }
+    .header-gray{
+        color:#95a5a6;
+    }
+    .normal{
+        background-color: #41BC75;
+        color: white;
+    }
+    .leave{
+        background-color: #b8e994;
+    }
+    .absence{
+        background-color: #ff9f43;
+        color: white;
+    }
+    .late-in{
+        background-color: #BC414F;
+        color: white;
+    }
+}
+
+.leave-status{
+    .gray{
+        color: #95a5a6;
+    }
+    .bold{
+        font-weight: 700;
+    }
+}
+
+.my-teams{
+    .gray{
+        color: #95a5a6;
+    }
+    .bold{
+        font-weight: 700;
+    }
+}
+
+.d-none {
+    display: none;
+}

@@ -1,0 +1,26 @@
+.table-header {
+  color: gray !important;
+  font-weight: bold;
+  font-size: 0.7rem !important;
+  text-transform: uppercase;
+}
+
+.FIX_th {
+  color: gray;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.lined {
+  text-overflow: ellipsis;
+}
+
+
+.multi-line-text {
+  white-space: pre-wrap;
+  // text-overflow: none;
+}
+
+.text-center {
+  text-align: center !important;
+}

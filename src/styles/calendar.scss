@@ -1,0 +1,67 @@
+.calendar-container {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.month-calendar-view {
+    .ant-fullcalendar-column-header {
+        text-align: center;
+
+        .ant-fullcalendar-column-header-inner {
+            border: 1px solid #ccc;
+            padding: 10px 0;
+            border-radius: 5px;
+        }
+    }
+
+    .ant-fullcalendar-cell {
+        .ant-fullcalendar-date {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 0 12px 0 0;
+            height: 130px;
+
+            .ant-fullcalendar-content {
+                height: 80%;
+            }
+        }
+
+        .events {
+            list-style: none;
+        }
+    }
+}
+
+.week-calendar-view {
+    .week-header-content {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px 5px;
+        font-weight: 300;
+        width: 95%;
+    }
+
+    .grid-container-week {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        padding: 10px;
+    }
+
+    .grid-body-item {
+        height: 55vh;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 95%;
+        padding: 15px 3px;
+        background: #fafafa;
+        margin-top: 10px;
+        overflow-y: auto;
+    }
+
+    .item-card {
+        .item-card-body {
+            padding: 10px;
+            font-size: 12px;
+        }
+    }
+}

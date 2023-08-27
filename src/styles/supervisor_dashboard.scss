@@ -1,0 +1,71 @@
+.dashboard-items {
+    .dashboard-item {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.103), 0 3px 6px rgba(0, 0, 0, 0.116);
+        border-radius: 5px;
+
+        .media-body {
+            text-align: right;
+            padding-right: 16px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.supervisor-dashboard {
+    .today-progress {
+        .progress {
+            .task-item {
+                height: 25px;
+                display: inline-block;
+                line-height: 2;
+            }
+            .complete-task {
+                background: rgb(0, 255, 106);
+            }
+            .hold-task {
+                background: rgb(212, 0, 255);
+            }
+            .overdue-task {
+                background: rgb(255, 0, 34);
+            }
+        }
+    }
+
+    
+    .task-type {
+        .completed-task {
+            .ant-radio-checked {
+                .ant-radio-inner {
+                    border-color: #00ff6a !important;
+
+                    &:after {
+                        background-color: #00ff6a;
+                    }
+                }
+            }
+        }
+        .hold-task {
+            .ant-radio-checked {
+                .ant-radio-inner {
+                    border-color: #d400ff !important;
+
+                    &:after {
+                        background-color: #d400ff;
+                    }
+                }
+            }
+        }
+
+        .overdue-task {
+            .ant-radio-checked {
+                .ant-radio-inner {
+                    border-color: #ff0022 !important;
+
+                    &:after {
+                        background-color: #ff0022;
+                    }
+                }
+            }
+        }
+    }
+}

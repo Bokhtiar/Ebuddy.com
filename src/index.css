@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* font-weight : 400; */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+div.ant-card-body>div.ant-form-item {
+    margin-bottom: 5px !important;
+}
+
+.calender-cell-hover {
+    z-index: 1;
+    position: relative;
+    box-shadow: -2px 0px 4px 0px #000;
+    transition: all 0.3s ease-out;
+}
+
+.calender-cell-hover:hover {
+    z-index: 9;
+    box-shadow: 0px 0px 8px 2px #424242;
+    /* transform: translateZ(42px); */
+    position: relative;
+}
+
+.activity-status .ant-select-selection {
+    background-color: transparent !important;
+    color: '#fff';
+    border: 0;
+}
